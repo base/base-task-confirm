@@ -1,0 +1,63 @@
+{
+  "name": "base-task-confirm",
+  "description": "Patches the .task method from the base-task plugin to allow the second argument to be a message for a confirmation prompt. Preserves all other existing task functionality, falls back to normal task handling when second argument is not a string or matches another task name.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/node-base/base-task-confirm",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "node-base/base-task-confirm",
+  "bugs": {
+    "url": "https://github.com/node-base/base-task-confirm/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "enquirer": "^0.4.1",
+    "prompt-confirm": "^0.2.1"
+  },
+  "devDependencies": {
+    "base": "^0.11.1",
+    "base-task": "^0.7.0",
+    "gulp-format-md": "^0.1.11"
+  },
+  "keywords": [
+    "api",
+    "app",
+    "application",
+    "base",
+    "base-plugin",
+    "baseplugin",
+    "building-blocks",
+    "composer",
+    "confirm",
+    "create",
+    "framework",
+    "plugin",
+    "plugins",
+    "task",
+    "tool",
+    "toolkit",
+    "tools"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
